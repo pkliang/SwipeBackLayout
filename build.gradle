@@ -13,6 +13,7 @@ buildscript {
 
     repositories {
         mavenCentral()
+        mavenLocal()
     }
 
     tasks.withType(Compile) {
