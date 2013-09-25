@@ -7,9 +7,9 @@ buildscript {
     }
 }
 
-allprojects {
+
     group = 'me.imid.swipebacklayout'
-    version = '1.0.0-SNAPSHOT'
+    version = '1.0.0'
 
     repositories {
         mavenCentral()
@@ -18,4 +18,4 @@ allprojects {
     tasks.withType(Compile) {
         options.encoding = "UTF-8"
     }
-}
+
